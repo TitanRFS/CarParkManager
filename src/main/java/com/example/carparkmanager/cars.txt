@@ -1,0 +1,25 @@
+Registered Cars:
+TAZ123,Christos Gianniotis
+DEF599,George Papadopoulos
+GHI789,John Theodoropoulos
+JKL101,Maria Papadopoulou
+MNO111,Kostas Nikolopoulos
+PQR222,Nikos Afentopoulos
+STU333,Panagiotis Moskofidis
+VWX444,Dimitris Papadopoulos
+YZA555,Giannis Antentokounmpo
+ASK236,Sofia Marbaki
+ASS123,Giorgos
+JBC123,Christos Papadopoulos
+
+Park Cars:
+DEF599,George Papadopoulos
+GHI789,John Theodoropoulos
+PQR222,Nikos Afentopoulos
+STU333,Panagiotis Moskofidis
+VWX444,Dimitris Papadopoulos
+MNO111,Kostas Nikolopoulos
+TAZ123,Christos Gianniotis
+JBC123,Christos Papadopoulos
+ASS123,Giorgos
+ASK236,Sofia Marbaki

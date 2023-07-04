@@ -1,7 +1,4 @@
-# CarParkManager
-
-
-Car Park Manager
+CarParkManager
 This is a JavaFX application that serves as a car park manager. It provides functionality to register cars, park and unpark cars, and generate a report on the car park status. The application utilizes a graphical user interface (GUI) to interact with users.
 
 Features
@@ -12,7 +9,7 @@ Occupancy and Capacity Labels: The application shows the current occupancy and c
 Saving and Loading Car Park Data: Users can save the car park data to a text file and load data from a previously saved file.
 Generate Report: Users can generate a report that displays the number of registered cars, the number of parked cars, and the current status of the car park (whether it is full or has available spaces).
 Usage
-To use this application, the following steps can be followed:
+To use this application, follow these steps:
 
 Launch the application.
 Register cars by clicking the "Add Car" button and providing the license plate number and owner name.
@@ -21,4 +18,4 @@ Unpark a parked car by selecting it from the "Parked Cars" table and clicking th
 Generate a report on the car park status by clicking the "Generate Report" button.
 Save the car park data to a text file by clicking the "Save" button.
 Load car park data from a previously saved file by clicking the "Load" button.
-Please note that the application is designed with a capacity of 10 parking spaces by default.
+Note: The application is designed with a capacity of 10 parking spaces by default.

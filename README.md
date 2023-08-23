@@ -1,11 +1,13 @@
-### WORK IN PROGRESS.
-Basic functionality achieved.Looking into adding some styling for the app.
+
 
 
 
 # CarParkManager
 
 This is a JavaFX application that serves as a car park manager. It provides functionality to register cars, park and unpark cars, and generate a report on the car park status. The application utilizes a graphical user interface (GUI) to interact with users.
+
+## WORK IN PROGRESS.
+Basic functionality achieved.Looking into adding some styling for the app.
 
 ## Features
 

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="root" prefHeight="594.0" prefWidth="758.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.carparkmanager.CarParkController">
+    <top>
+        <VBox spacing="11">
+            <Label text="Registered Cars">
+                <font>
+                    <Font size="18" />
+                </font>
+            </Label>
+         <Button mnemonicParsing="false" onAction="#handleAddCarButton" text="Register car" />
+            <TableView fx:id="registeredCarsTable" prefHeight="200.0" prefWidth="200.0">
+                <columns>
+                    <TableColumn fx:id="licensePlateColumn" prefWidth="109.0" text="License Plate" />
+                    <TableColumn fx:id="ownerNameColumn" prefWidth="127.0" text="Owner Name" />
+                </columns>
+            </TableView>
+        </VBox>
+    </top>
+    <center>
+        <VBox alignment="CENTER" spacing="10">
+            <Label alignment="CENTER" text="Car Park">
+                <font>
+                    <Font size="24" />
+                </font>
+            </Label>
+            <HBox alignment="CENTER" spacing="10">
+                <Label text="Parking Spaces: " />
+                <Label fx:id="occupancyLabel" />
+                <Label text="/" />
+                <Label fx:id="capacityLabel" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="10">
+                <ComboBox fx:id="parkingComboBox" prefWidth="150.0" promptText="Select a car" />
+                <Button fx:id="parkCarButton" onAction="#parkCar" text="Park Car" />
+            <Button mnemonicParsing="false" onAction="#generateReport" text="Report" />
+                <Button text="Save" onAction="#handleSaveButton" />
+                <Button text="Load" onAction="#handleLoadButton" />
+            </HBox>
+            <TableView fx:id="parkedCarsTable" prefHeight="182.0" prefWidth="684.0">
+                <columns>
+                    <TableColumn fx:id="parkedLicensePlateColumn" prefWidth="125.0" text="License Plate" />
+                    <TableColumn fx:id="parkedOwnerNameColumn" prefWidth="124.0" text="Owner Name" />
+                    <TableColumn fx:id="unparkColumn" prefWidth="125.0" text="Unpark" />
+                </columns>
+            </TableView>
+        </VBox>
+    </center>
+</BorderPane>

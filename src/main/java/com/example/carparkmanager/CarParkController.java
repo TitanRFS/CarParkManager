@@ -40,6 +40,11 @@ public class CarParkController {
     private Label occupancyLabel;
     @FXML
     private Label capacityLabel;
+    @FXML
+    private ToggleButton darkModeButton;
+
+    private static final String DARK_MODE_STYLESHEET = "CarParkDesign.css";
+    private static final String LIGHT_MODE_STYLESHEET = "light-mode.css";
 
     public CarPark carPark;
 
